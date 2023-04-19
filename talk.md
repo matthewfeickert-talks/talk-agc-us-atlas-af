@@ -14,6 +14,18 @@ May 4th, 2023
 .middle-logo[]
 
 ---
+# Talk Overview
+
+.large[
+* .bold[Time]: 25 minutes talk + 5 minutes questions
+* .bold[Notes from organizers]:
+   - Slides can just advertise/summarize available "features" at various facilities that could be useful for AGC style workflows.
+      - Example: UChicago we have now also Triton supporting 70 GPUs
+   - It would be ideal to test them also
+   - Nice example to test if AGC notebook can run all the way, and if not what is missing.
+]
+
+---
 # Example Slide
 
 .large[
