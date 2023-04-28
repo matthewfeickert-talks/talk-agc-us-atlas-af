@@ -52,12 +52,14 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 
 .grid[
 .center.kol-1-3[
-.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+<br>
+.width-100[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
+<br><br>
 .large[Brookaven National Lab]
 ]
 .center.kol-1-3[
-.width-100[[![example_logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+.width-100[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .large[University of Chicago]
 ]
@@ -69,7 +71,8 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 ]
 
 <br>
-.center.large[📖 Check out the [ US ATLAS Analysis Facilities ReadTheDocs](https://usatlas.readthedocs.io/projects/af-docs/)!]
+.center.large[📖 Check out the [US ATLAS Analysis Facilities ReadTheDocs](https://usatlas.readthedocs.io/projects/af-docs/)]
+.center.large[❓ Ask questions on the [ATLAS Analysis Facilities Discourse Forum](https://atlas-talk.sdcc.bnl.gov/)]
 
 ---
 # Example Slide
