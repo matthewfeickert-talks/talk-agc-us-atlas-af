@@ -56,7 +56,7 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 .width-100[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 <br><br>
-.large[Brookaven National Lab]
+.large[Brookaven National Lab Scientific Data and Computing Center (SDCC)]
 ]
 .center.kol-1-3[
 .width-100[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
@@ -66,7 +66,7 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 .center.kol-1-3[
 .width-65[[![example_logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 
-.large[SLAC National Lab]
+.large[SLAC National Lab Shared Scientific Data Facility (SDF)]
 ]
 ]
 
