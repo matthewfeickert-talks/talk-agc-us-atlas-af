@@ -64,7 +64,7 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 .large[University of Chicago]
 ]
 .center.kol-1-3[
-.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+.width-65[[![example_logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 
 .large[SLAC National Lab]
 ]
