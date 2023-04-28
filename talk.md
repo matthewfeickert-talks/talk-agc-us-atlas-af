@@ -37,7 +37,7 @@ Taking the [HSF Analysis Facilities Forum](https://hepsoftwarefoundation.org/act
 .italic[The .bold[infrastructure and services] that provide .bold[integrated data, software and computational resources] to execute one or more elements of an analysis workflow. These resources are .bold[shared] among members of a virtual organization and .bold[supported by that organization].]
 
 <br>
-We also had lots of disucssion about this at the [2020 Future Analysis Systems and Facilities IRIS-HEP Blueprint workshop](https://indico.cern.ch/event/960587/).
+We also had lots of discussion about this at the [2020 Future Analysis Systems and Facilities IRIS-HEP Blueprint workshop](https://indico.cern.ch/event/960587/).
 
 <br>
 Already covered this today in AGC [German facilities](https://indico.cern.ch/event/1260431/timetable/?view=standard#18-experience-with-agc-at-germ) (David Koch) and [US CMS Analysis Facilities](https://indico.cern.ch/event/1260431/timetable/?view=standard#19-agc-at-us-cms-afs) (Carl Lundstedt) talks.
@@ -46,13 +46,18 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 ---
 # US ATLAS Analysis Facilities
 
+<br>
+<br>
+
+
+.grid[
 .center.kol-1-3[
 .width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
 
 .large[Brookaven National Lab]
 ]
 .center.kol-1-3[
-.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+.width-100[[![example_logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .large[University of Chicago]
 ]
@@ -61,6 +66,10 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 
 .large[SLAC National Lab]
 ]
+]
+
+<br>
+.center.large[📖 Check out the [ US ATLAS Analysis Facilities ReadTheDocs](https://usatlas.readthedocs.io/projects/af-docs/)!]
 
 ---
 # Example Slide
