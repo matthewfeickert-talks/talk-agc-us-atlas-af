@@ -149,6 +149,84 @@ ___
 ]
 
 ---
+# SDCC Jupyter Launcher: custom images! .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+
+.center.width-100[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.center[Allows for running custom images as Singularity containers]
+.center[Can pull from public image registries or from CVMFS unpacked]
+
+---
+# SDCC Jupyter Launcher: custom images! .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+
+.center.width-100[[![BNL-launcher-with-image-tag](figures/BNL-launcher-with-image-tag.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.center.huge.bold[Example:]
+.huge.bold[`/cvmfs/unpacked.cern.ch/hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15`]
+
+---
+# Development image: analysis-systems-base
+
+.kol-1-2.huge[
+- As we can use custom images at BNL created the `analysis-systems-base` image (https://github.com/iris-hep/analysis-systems-base)
+- Images are hosted on [OSG Harbor](https://hub.opensciencegrid.org/harbor/projects/863/repositories/analysis-systems-base) under `iris-hep` org
+   - `hub.opensciencegrid.org/iris-hep/analysis-systems-base`
+   - Thanks Brian Lin for making this happen!
+]
+.kol-1-2[
+.center.width-100[[![analysis-systems-base-github](figures/analysis-systems-base-github.png)](https://github.com/iris-hep/analysis-systems-base)]
+]
+
+---
+# Custom kernel discovery (WIP)
+
+.center.width-75[[![jupyter-lab-no-kernel](figures/jupyter-lab-no-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.large[At the moment, lacking mounting (or something else) to mount custom kernels from user defined virtual environments]
+
+---
+# Custom kernel discovery
+
+.bold[
+```
+Singularity> mkdir -p ~/.local/share/jupyter/kernels
+Singularity> ln --symbolic \
+   /opt/micromamba/envs/analysis-systems/share/jupyter/kernels/analysis-systems \
+   ~/.local/share/jupyter/kernels
+Singularity>
+```
+]
+
+<br>
+.center.huge.bold[Workaround: Create custom symlink first time]
+.center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
+
+---
+# Custom kernel discovery
+
+.center.width-75[[![jupyter-lab-kernel](figures/jupyter-lab-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.center.huge.bold[Workaround: Create custom symlink first time]
+.center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
+
+---
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/b7dbb33e6e0acc971edfbfc3e30c25c58f5418b8/analyses/cms-open-data-ttbar/coffea.ipynb)
+
+.huge[
+- Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
+- Notebook runs end-to-end 🚀
+- BNL does not use Kubernetes, so not a Coffea-casa AF, so use global config
+```python
+...
+PIPELINE = "coffea"  # pure coffea setup
+USE_DASK = True  # enable Dask
+AF = "local"  # local setup, not coffea-casa
+AF_NAME = "bnl"  # Added on Matthew's fork
+...
+```
+]
+
+---
 # UChicago AF: Resources &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .large.grid[
@@ -234,6 +312,16 @@ class: end-slide, center
 
 Backup
 
+---
+# Development image: analysis-systems-base
+
+.kol-1-2.huge[
+- As we can use custom images at BNL created the `analysis-systems-base` image (https://github.com/iris-hep/analysis-systems-base)
+- Goal is to use lock files to make as much of the image as fully reproducible as possible and statically defined.
+]
+.kol-1-2[
+.center.width-70[[![lock-files](figures/lock-files.png)](https://github.com/iris-hep/analysis-systems-base)]
+]
 
 ---
 
