@@ -30,7 +30,7 @@ May 4th, 2023
 
 <br>
 .large[
-.center.huge.bold[What is an Analysis Facility?]
+.center.huge.bold[What is an Analysis Facility (AF)?]
 
 Taking the [HSF Analysis Facilities Forum](https://hepsoftwarefoundation.org/activities/analysisfacilitiesforum.html)'s definition:
 
@@ -46,9 +46,50 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 ---
 # US ATLAS Analysis Facilities
 
+.grid[
+.center.kol-1-3[
 <br>
-<br>
+.width-100[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
+<br><br>
+.large[Brookaven National Lab Scientific Data and Computing Center (SDCC)]
+]
+.center.kol-1-3[
+.width-100[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+
+.large[University of Chicago]
+]
+.center.kol-1-3[
+.width-65[[![example_logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+
+.large[SLAC National Lab Shared Scientific Data Facility (SDF)]
+]
+]
+
+___
+
+.grid[
+.kol-1-3[
+* Shared .bold[Tier 3] computing spaces
+   - Interactive and batch computing
+   - ATLAS data storage
+]
+.kol-1-3[
+* .bold[Heterogenous compute] resources
+   - x86-64 and AArch64
+   - Access to GPUs
+   - Machine learning resources
+]
+.kol-1-3[
+* Centers for .bold[software and computing experimentation]
+   - Each AF has unique features and capabilities
+]
+]
+
+<!-- The AFs also support a wide variety of tools specific for analysis, including ATLAS/CERN software in CVMFS, Grid middleware, Rucio clients, Machine Learning packages, MPI, Jupyter Lab with PyROOT, Xcache with auto data discovery, GPUs, etc. -->
+
+---
+# US ATLAS Analysis Facilities
 
 .grid[
 .center.kol-1-3[
