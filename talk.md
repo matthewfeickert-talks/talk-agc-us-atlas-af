@@ -135,7 +135,7 @@ ___
 ]
 .kol-1-3[
 .center.bold[Container runtime]
-* Apptainer (formerly known as Singularity) with the ability to .bold[pull custom images]
+* Apptainer/Singularity with the ability to .bold[pull custom images]
 ]
 ]
 
@@ -153,7 +153,7 @@ ___
 
 .center.width-100[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
-.center[Allows for running custom images as Singularity containers]
+.center[Allows for running custom images as Apptainer containers]
 .center[Can pull from public image registries or from CVMFS unpacked]
 
 ---
