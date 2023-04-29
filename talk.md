@@ -210,7 +210,7 @@ Singularity>
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
 
 ---
-# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/b7dbb33e6e0acc971edfbfc3e30c25c58f5418b8/analyses/cms-open-data-ttbar/coffea.ipynb)
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/d97293ab024e3ea3ca6e5531420e343f6267cd7e/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.ipynb)
 
 .huge[
 - Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
