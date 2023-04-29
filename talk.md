@@ -60,7 +60,7 @@ Already covered this today in AGC [German facilities](https://indico.cern.ch/eve
 .large[University of Chicago]
 ]
 .center.kol-1-3[
-.width-65[[![example_logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+.width-65[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 
 .large[SLAC National Lab Shared Scientific Data Facility (SDF)]
 ]
@@ -86,8 +86,6 @@ ___
    - Each AF has unique features and capabilities
 ]
 ]
-
-<!-- The AFs also support a wide variety of tools specific for analysis, including ATLAS/CERN software in CVMFS, Grid middleware, Rucio clients, Machine Learning packages, MPI, Jupyter Lab with PyROOT, Xcache with auto data discovery, GPUs, etc. -->
 
 ---
 # US ATLAS Analysis Facilities
@@ -115,6 +113,66 @@ ___
 <br>
 .center.large[📖 Check out the [US ATLAS Analysis Facilities ReadTheDocs](https://usatlas.readthedocs.io/projects/af-docs/)]
 .center.large[❓ Ask questions on the [ATLAS Analysis Facilities Discourse Forum](https://atlas-talk.sdcc.bnl.gov/)]
+
+---
+# BNL SDCC AF &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+
+.large.grid[
+.kol-1-3[
+.center.bold[Compute resources]
+* $n$ CPUs
+* $n$ GPUs
+* $x$ batch system
+]
+.kol-1-3[
+.center.bold[Jupyter access]
+* How
+]
+.kol-1-3[
+.center.bold[Container runtime]
+* What environment
+]
+]
+
+---
+# UChicago AF &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+
+.large.grid[
+.kol-1-3[
+.center.bold[Compute resources]
+* $n$ CPUs
+* $n$ GPUs
+* $x$ batch system
+]
+.kol-1-3[
+.center.bold[Jupyter access]
+* How
+]
+.kol-1-3[
+.center.bold[Container runtime]
+* What environment
+]
+]
+
+---
+# SLAC SDF AF &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+
+.large.grid[
+.kol-1-3[
+.center.bold[Compute resources]
+* $n$ CPUs
+* $n$ GPUs
+* $x$ batch system
+]
+.kol-1-3[
+.center.bold[Jupyter access]
+* How
+]
+.kol-1-3[
+.center.bold[Container runtime]
+* What environment
+]
+]
 
 ---
 # Example Slide
