@@ -73,6 +73,7 @@ ___
 * Shared .bold[Tier 3] computing spaces
    - Interactive and batch computing
    - ATLAS data storage
+   - Computing and analysis tutorials
 ]
 .kol-1-3[
 * .bold[Heterogenous compute] resources
