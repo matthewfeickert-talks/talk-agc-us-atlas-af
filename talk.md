@@ -117,20 +117,25 @@ ___
 ---
 # BNL SDCC AF: Resources &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
+<br>
+
 .large.grid[
 .kol-1-3[
-.center.bold[Compute resources]
-* $n$ CPUs
+.center.bold[[Compute resources](https://indico.cern.ch/event/1078853/contributions/4569995/)]
+* ~2,000 HTC nodes (~80,000 logical cores)
+   - .bold[TODO]: Check these numbers
+* Supporting 5 HPC clusters
 * $n$ GPUs
-* $x$ batch system
+* HTCondor batch system on HTC nodes
 ]
 .kol-1-3[
 .center.bold[Jupyter access]
-* How
+* SDCC Analysis Portal to JupyterHub instance
+* Able to scale out jobs with HTCondor
 ]
 .kol-1-3[
 .center.bold[Container runtime]
-* What environment
+* Apptainer (formerly known as Singularity) with the ability to .bold[pull custom images]
 ]
 ]
 
