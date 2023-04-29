@@ -115,7 +115,7 @@ ___
 .center.large[❓ Ask questions on the [ATLAS Analysis Facilities Discourse Forum](https://atlas-talk.sdcc.bnl.gov/)]
 
 ---
-# BNL SDCC AF &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+# BNL SDCC AF: Resources &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .large.grid[
 .kol-1-3[
@@ -135,7 +135,16 @@ ___
 ]
 
 ---
-# UChicago AF &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+# BNL SDCC AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+
+.large[
+- .blue[Point A] 🎉
+- .red[Point B] 🌐
+- .bold[Point C] 🚀
+]
+
+---
+# UChicago AF: Resources &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .large.grid[
 .kol-1-3[
@@ -155,7 +164,16 @@ ___
 ]
 
 ---
-# SLAC SDF AF &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+# UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+
+.large[
+- .blue[Point A] 🎉
+- .red[Point B] 🌐
+- .bold[Point C] 🚀
+]
+
+---
+# SLAC SDF AF: Resources &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 
 .large.grid[
 .kol-1-3[
@@ -172,6 +190,15 @@ ___
 .center.bold[Container runtime]
 * What environment
 ]
+]
+
+---
+# SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+
+.large[
+- .blue[Point A] 🎉
+- .red[Point B] 🌐
+- .bold[Point C] 🚀
 ]
 
 ---
