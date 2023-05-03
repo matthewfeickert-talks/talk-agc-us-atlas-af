@@ -258,10 +258,21 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 .center.large[Use the latest coffea-casa release deployed by DOMA]
 
 ---
-# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.ipynb)
+# Example: [AGC Example Analyses](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/)
+
+.huge.bold[[AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.ipynb)]
 
 .huge[
-- Analysis runs end-to-end out of the box 🚀
+* Analysis runs end-to-end out of the box 🚀
+* Won't compare runtime given recent issues around HTTP and XRootD
+   - [github.com/iris-hep/analysis-grand-challenge/ Issue #128](https://github.com/iris-hep/analysis-grand-challenge/issues/128)
+]
+
+.huge.bold[[AGC ATLAS Open Data $H\rightarrow ZZ^\star$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/atlas-open-data-hzz/HZZ_analysis_pipeline.ipynb)]
+
+.huge[
+* Analysis runs end-to-end out of the box 🚀
+   - Modulo [github.com/iris-hep/analysis-grand-challenge/ Issue #379](https://github.com/iris-hep/analysis-grand-challenge/issues/379)
 ]
 
 ---
