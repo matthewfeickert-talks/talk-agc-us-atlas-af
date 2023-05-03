@@ -122,20 +122,22 @@ ___
 .large.grid[
 .kol-1-3[
 .center.bold[[Compute resources](https://indico.cern.ch/event/1078853/contributions/4569995/)]
-* ~2,000 HTC nodes (~80,000 logical cores)
-   - .bold[TODO]: Check these numbers
+* ~2,200 HTC nodes<br>(burst up to 22,000 cores)
 * Supporting 5 HPC clusters
-* $n$ GPUs
 * HTCondor batch system on HTC nodes
+* (ATLAS Tier 1 farm completely separate resource)
 ]
 .kol-1-3[
 .center.bold[Jupyter access]
 * SDCC Analysis Portal to JupyterHub instance
+* Runs on 4 VMs (per VM: 16 cores, 48 GB RAM)
 * Able to scale out jobs with HTCondor
+* GPU accessible on shared pool
 ]
 .kol-1-3[
-.center.bold[Container runtime]
+.center.bold[Container infrastructure]
 * Apptainer/Singularity with the ability to .bold[pull custom images]
+* [OKD](https://docs.okd.io/) for container orchestration
 ]
 ]
 
