@@ -228,12 +228,14 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ]
 
 ---
-# UChicago AF: Resources &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+# UChicago AF: [Resources](https://af.uchicago.edu/hardware) &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .large.grid[
 .kol-1-3[
 .center.bold[Compute resources]
-* $n$ CPUs
+* CPUS:
+   - 1,520 cores (long queue)
+   - 1,280 cores (short queue)
 * $n$ GPUs
 * $x$ batch system
 ]
@@ -242,8 +244,9 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 * How
 ]
 .kol-1-3[
-.center.bold[Container runtime]
+.center.bold[Container infrastructure ]
 * What environment
+* Uses Kubernetes for container orchestration so supports Coffea-casa
 ]
 ]
 
