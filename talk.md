@@ -241,7 +241,9 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ]
 .kol-1-3[
 .center.bold[Jupyter access]
-* How
+* Analysis Portal to JupyterHub instance
+* Coffea-casa instance
+* .bold[check]: Able to run custom container images?
 ]
 .kol-1-3[
 .center.bold[Container infrastructure ]
