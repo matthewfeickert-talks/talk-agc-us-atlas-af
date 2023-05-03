@@ -203,7 +203,7 @@ Singularity>
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
 
 ---
-# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/d97293ab024e3ea3ca6e5531420e343f6267cd7e/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.ipynb)
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.ipynb)
 
 .huge[
 - Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
@@ -256,6 +256,13 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 .center.width-70[[![uchicago-af-coffea-casa-launch](figures/uchicago-af-coffea-casa-launch.png)](https://af.uchicago.edu/)]
 
 .center.large[Use the latest coffea-casa release deployed by DOMA]
+
+---
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/cms-open-data-ttbar/ttbar_analysis_pipeline.ipynb)
+
+.huge[
+- Analysis runs end-to-end out of the box 🚀
+]
 
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
