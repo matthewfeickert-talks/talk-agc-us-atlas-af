@@ -246,11 +246,27 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
+.center.width-60[[![uchicago-af-login](figures/uchicago-af-login.png)](https://af.uchicago.edu/)]
+
+.center.large[Able to launch Coffe-casa]
+
+---
+# UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+
+.center.width-70[[![uchicago-af-coffea-casa-launch](figures/uchicago-af-coffea-casa-launch.png)](https://af.uchicago.edu/)]
+
+.center.large[Use the latest coffea-casa release deployed by DOMA]
+
+---
+# UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+
 .large[
 - .blue[Point A] 🎉
 - .red[Point B] 🌐
 - .bold[Point C] 🚀
 ]
+
+<!-- we have updated the upstream triton chart(https://github.com/maniaclab/triton-inference-server) mainly to allow it to use s3 for model registry. It's configured with HPA auto scaling.  Each triton pod request 1 GPU and more triton pod will be created in response to load. GPUS available are here(https://af.uchicago.edu/hardware). Currently it doesn't select specific gpus so a triton pod can use any of those gpus.  The service is available within kubernetes, jupyter notebooks etc. The end point is (triton-traefik.triton.svc.cluster.local:8000).  The S3 bucket though is shared. So in terms of mutitenant, there's still something to workout. For example, user A probably can also see user B's models.  Ideally we can it an on demand service so that User can create their own instance of triton server. That will be our todos when we get a chance. -->
 
 ---
 # SLAC SDF AF: Resources &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
