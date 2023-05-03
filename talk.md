@@ -233,7 +233,7 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 .large.grid[
 .kol-1-3[
 .center.bold[Compute resources]
-* CPUS:
+* CPUs:
    - 1,520 cores (long queue)
    - 1,280 cores (short queue)
 * $n$ GPUs
