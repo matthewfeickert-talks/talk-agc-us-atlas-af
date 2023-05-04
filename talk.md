@@ -144,6 +144,13 @@ ___
 ]
 
 ---
+# BNL SDCC AF: Login .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+
+.center.width-70[[![bnl-sdcc-login](figures/bnl-sdcc-login.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.center[SDCC login with federated authentication]
+
+---
 # SDCC Jupyter Launcher: custom images! .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.width-100[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
@@ -250,6 +257,13 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ___
 
 .center.large[For more detailed summary c.f. [Fengping Hu's 2022 US ATLAS Budget Scrubbing talk](https://indico.cern.ch/event/1167456/contributions/4966544/)]
+
+---
+# UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+
+.center.width-60[[![uchicago-af-login-auth](figures/uchicago-af-login-auth.png)](https://af.uchicago.edu/)]
+
+.center.large[Login with Globus CILogon]
 
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
@@ -383,11 +397,11 @@ function jupyter() {
 
 .center.huge[
 
-| AF       | Batch    | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs | | Triton Server |
-| :-       | :-       | |:-:   | | :-:         | | :-:           | | :-:         | | :-:      | | :-:  | | :-:           |
-| BNL      | HTCondor | | ✅   | | ✅          | | ✅            | | ❌          | | ✅       | | ✅  | | ❌            |
-| UChicago | HTCondor | | ✅   | | ✅          | | ❌            | | ✅          | | ✅       | | ✅  | | ✅            |
-| SLAC     | SLURM    | | ✅   | | ✅          | | ❌            | | ❌          | | ❌       | | ✅  | | ❌            |
+| AF       | | Federated Login | | Batch    | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs | | Triton Server |
+| :-       | | :-:             | | :-       | |:-:   | | :-:         | | :-:           | | :-:         | | :-:      | | :-:  | | :-:           |
+| BNL      | | ✅              | | HTCondor | | ✅   | | ✅          | | ✅            | | ❌          | | ✅       | | ✅  | | ❌            |
+| UChicago | | ✅              | | HTCondor | | ✅   | | ✅          | | ❌            | | ✅          | | ✅       | | ✅  | | ✅            |
+| SLAC     | | ❌              | | SLURM    | | ✅   | | ✅          | | ❌            | | ❌          | | ❌       | | ✅  | | ❌            |
 
 ]
 
