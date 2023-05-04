@@ -272,7 +272,7 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 
 .huge[
 * Analysis runs end-to-end out of the box 🚀
-   - Modulo [github.com/iris-hep/analysis-grand-challenge/ Issue #379](https://github.com/iris-hep/analysis-grand-challenge/issues/379)
+   - Modulo [github.com/CoffeaTeam/coffea-casa/ Issue #379](https://github.com/CoffeaTeam/coffea-casa/issues/379)
 ]
 
 ---
