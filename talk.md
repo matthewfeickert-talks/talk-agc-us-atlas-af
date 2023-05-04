@@ -139,7 +139,7 @@ ___
 .kol-1-3[
 .center.bold[Container infrastructure]
 * Apptainer/Singularity with the ability to .bold[pull custom images]
-* [OKD](https://docs.okd.io/) for container orchestration
+* [OKD](https://docs.okd.io/) for container orchestration <br>(supporting REANA and ServiceX)
 ]
 ]
 
