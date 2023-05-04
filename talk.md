@@ -370,7 +370,7 @@ ___
 .center.large[(very slow)]
 
 ```bash
-export SINGULARITY_IMAGE_PATH=<path-to-the.sif>
+export SINGULARITY_IMAGE_PATH=/path/to/.sif
 function jupyter() {
    singularity exec --nv -B /sdf,/gpfs,/scratch,/lscratch \
    ${SINGULARITY_IMAGE_PATH} jupyter $@;
