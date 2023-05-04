@@ -389,7 +389,7 @@ function jupyter() {
 
 .huge[
 * This is as far as I have gotten
-   - Currently unable to get hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15 image running
+   - Currently unable to get <br>hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15<br> image running
 * Will need to make a new flavor that includes SLURM instead of HTCondor to be able to use SDF batch system
 * Once have working interactive Jupyter session then can try to run AGC
 * 💡 As SDF supports Kubernetes would be .bold[amazing if they could support Coffea-casa]
