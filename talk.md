@@ -144,22 +144,22 @@ ___
 ]
 
 ---
-# BNL SDCC AF: Login .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+# BNL SDCC AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.width-70[[![bnl-sdcc-login](figures/bnl-sdcc-login.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
-.center[SDCC login with federated authentication]
+.huge.center[SDCC login with federated authentication]
 
 ---
-# SDCC Jupyter Launcher: custom images! .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+# SDCC Jupyter Launcher: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
-.center.width-100[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+.center.width-90[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
-.center[Allows for running custom images as Apptainer containers]
-.center[Can pull from public image registries or from CVMFS unpacked]
+.huge.center[Allows for running .bold[custom images] as Apptainer containers]
+.huge.center[Can pull from public image registries or from CVMFS unpacked]
 
 ---
-# SDCC Jupyter Launcher: custom images! .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
+# SDCC Jupyter Launcher: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.width-100[[![BNL-launcher-with-image-tag](figures/BNL-launcher-with-image-tag.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
@@ -180,14 +180,14 @@ ___
 ]
 
 ---
-# Custom kernel discovery (WIP)
+# Custom kernel discovery (WIP) &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.width-75[[![jupyter-lab-no-kernel](figures/jupyter-lab-no-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
 .large[At the moment, lacking mounting (or something else) to automatically discover and mount custom kernels from user defined virtual environments]
 
 ---
-# Custom kernel discovery
+# Custom kernel discovery &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .bold[
 ```
@@ -204,7 +204,7 @@ Singularity>
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
 
 ---
-# Custom kernel discovery
+# Custom kernel discovery &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.width-75[[![jupyter-lab-kernel](figures/jupyter-lab-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
@@ -431,7 +431,7 @@ ___
    - SLAC: More work to do
 * Each Analysis Facility offers unique features and experimental options for exploration
    - BNL: Large pool of CPU nodes for bursting. OKD for new services (REANA, ServiceX).
-   - UChicago: Coffea-casa, Dask scale out to HTCondor on AF and MWT2. ServiceX instances.
+   - UChicago: Coffea-casa, NVIDIA Triton server, Dask scale out to HTCondor on AF and MWT2. ServiceX instances.
    - SLAC: GPUs galore. Large k8s pool.
 ]
 .center.kol-1-3[
