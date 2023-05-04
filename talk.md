@@ -26,6 +26,20 @@ May 4th, 2023
 ]
 
 ---
+# Thanks where it is due
+
+Most of this information is my view of the abundant information and fantastic work done by the people leading the US ATLAS Analysis Facility efforts. Any errors are mine and all success is theirs. Thanks to them!
+
+* Doug Benjamin (BNL)
+* Ofer Rind (BNL)
+* Shuwei Ye (BNL)
+* Rob Gardner (UChiacgo)
+* Ilija Vukotic (UChicago)
+* Fengping Hu (UChicago)
+* Lincoln Bryant (UChicago)
+* Wei Yang (SLAC)
+
+---
 # Analysis Facilities
 
 <br>
