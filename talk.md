@@ -348,11 +348,11 @@ ___
 
 .center.huge[
 
-| AF       | Batch    | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs |
-| :---     | :---     | |:---:  | | :---:        | | :---:         | | :---:        | | :---:  | | :-: |
-| BNL      | HTCondor | | ✅   | | ✅          | | ✅             | | ❌          | | ✅       | | ✅  |
-| UChicago | HTCondor | | ✅   | | ✅          | | ❌             | | ✅          | | ✅       | | ✅  |
-| SLAC     | SLURM    | | ✅   | | ✅          | | ❌             | | ❌          | | ❌       | | ✅  |
+| AF       | Batch    | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs | | Triton Server |
+| :-       | :-       | |:-:   | | :-:         | | :-:           | | :-:         | | :-:      | | :-:  | | :-:           |
+| BNL      | HTCondor | | ✅   | | ✅          | | ✅            | | ❌          | | ✅       | | ✅  | | ❌            |
+| UChicago | HTCondor | | ✅   | | ✅          | | ❌            | | ✅          | | ✅       | | ✅  | | ✅            |
+| SLAC     | SLURM    | | ✅   | | ✅          | | ❌            | | ❌          | | ❌       | | ✅  | | ❌            |
 
 ]
 
