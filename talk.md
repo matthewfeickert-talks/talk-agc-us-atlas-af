@@ -14,18 +14,6 @@ May 4th, 2023
 .middle-logo[]
 
 ---
-# Talk Overview
-
-.large[
-* .bold[Time]: 20 minutes talk + 10 minutes questions
-* .bold[Notes from organizers]:
-   - Slides can just advertise/summarize available "features" at various facilities that could be useful for AGC style workflows.
-      - Example: UChicago we have now also Triton supporting 70 GPUs
-   - It would be ideal to test them also
-   - Nice example to test if AGC notebook can run all the way, and if not what is missing.
-]
-
----
 # Thanks where it is due
 
 Most of this information is my view of the abundant information and fantastic work done by the people leading the US ATLAS Analysis Facility efforts. Any errors are mine and all success is theirs. Thanks to them and to the following people for their feedback on this talk!
