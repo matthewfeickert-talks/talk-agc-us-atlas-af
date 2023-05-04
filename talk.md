@@ -28,7 +28,7 @@ May 4th, 2023
 ---
 # Thanks where it is due
 
-Most of this information is my view of the abundant information and fantastic work done by the people leading the US ATLAS Analysis Facility efforts. Any errors are mine and all success is theirs. Thanks to them!
+Most of this information is my view of the abundant information and fantastic work done by the people leading the US ATLAS Analysis Facility efforts. Any errors are mine and all success is theirs. Thanks to them and to the following people for their feedback on this talk!
 
 * Doug Benjamin (BNL)
 * Ofer Rind (BNL)
@@ -235,27 +235,33 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ---
 # UChicago AF: [Resources](https://af.uchicago.edu/hardware) &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
-.large.grid[
+.grid[
 .kol-1-3[
 .center.bold[Compute resources]
 * CPUs:
    - 1,520 cores (long queue)
    - 1,280 cores (short queue)
-* $n$ GPUs
-* $x$ batch system
+* GPUs:
+   - Two NVIDIA A100 nodes
+   - A few NVIDIA 1080 and 2080 nodes
+* HTCondor batch system with autoscaling (developed by [Brian Bockleman](https://github.com/opensciencegrid/htcondor-autoscale-manager))
 ]
-.kol-1-3[
+.large.kol-1-3[
 .center.bold[Jupyter access]
 * Analysis Portal to JupyterHub instance
-* Coffea-casa instance
-* .bold[check]: Able to run custom container images?
+* JupyterLab offers interactive access to GPUs with selection of NVIDIA enabled Docker images
+* .bold[Coffea-casa instance]
 ]
-.kol-1-3[
+.large.kol-1-3[
 .center.bold[Container infrastructure ]
-* What environment
 * Uses Kubernetes for container orchestration so supports Coffea-casa
+* Two ServiceX instances
 ]
 ]
+
+___
+
+.center.large[For more detailed summary c.f. [Fengping Hu's 2022 US ATLAS S&C Technical Meeting talk](https://docs.google.com/presentation/d/1W_Pyg9WWbj-JFQ_L9Gfv_jdaFlQsMC41OV6g2WOySlY/edit?usp=sharing)]
 
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
@@ -290,15 +296,19 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ]
 
 ---
-# UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
+# UChicago AF: [Triton Inference Server](https://github.com/maniaclab/triton-inference-server) &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
-.large[
-- .blue[Point A] 🎉
-- .red[Point B] 🌐
-- .bold[Point C] 🚀
+.large.kol-1-2[
+* Each Triton pod requests 1 GPU and additional Triton pods created in response to load
+   - GPUs selected from [any available](https://af.uchicago.edu/hardware)
+* Available within Kubernetes (Coffea-casa), Jupyter Hub
+* Setup to use Amazon S3 object store for model registry
+   - Though S3 bucket is shared
 ]
-
-<!-- we have updated the upstream triton chart(https://github.com/maniaclab/triton-inference-server) mainly to allow it to use s3 for model registry. It's configured with HPA auto scaling.  Each triton pod request 1 GPU and more triton pod will be created in response to load. GPUS available are here(https://af.uchicago.edu/hardware). Currently it doesn't select specific gpus so a triton pod can use any of those gpus.  The service is available within kubernetes, jupyter notebooks etc. The end point is (triton-traefik.triton.svc.cluster.local:8000).  The S3 bucket though is shared. So in terms of mutitenant, there's still something to workout. For example, user A probably can also see user B's models.  Ideally we can it an on demand service so that User can create their own instance of triton server. That will be our todos when we get a chance. -->
+.large.kol-1-2[
+* Each Triton pod requests 1 GPU and additional Triton pods created in response to load
+   - GPUs selected from [any available](https://af.uchicago.edu/hardware)
+]
 
 ---
 # SLAC SDF AF: Resources &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
@@ -336,6 +346,22 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 - .blue[Point A] 🎉
 - .red[Point B] 🌐
 - .bold[Point C] 🚀
+]
+
+---
+# Summary: Services at a glance
+
+<br>
+<br>
+
+.center.huge[
+
+| AF       | Batch    | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs |
+| :---     | :---     | |:---:  | | :---:        | | :---:         | | :---:        | | :---:  | | :-: |
+| BNL      | HTCondor | | ✅   | | ✅          | | ✅             | | ❌          | | ✅       | | ✅  |
+| UChicago | HTCondor | | ✅   | | ✅          | | ❌             | | ✅          | | ✅       | | ✅  |
+| SLAC     | SLURM    | | ✅   | | ✅          | | ❌             | | ❌          | | ❌       | | ✅  |
+
 ]
 
 ---
