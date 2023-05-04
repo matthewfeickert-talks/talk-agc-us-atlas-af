@@ -146,14 +146,14 @@ ___
 ---
 # BNL SDCC AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
-.center.width-70[[![bnl-sdcc-login](figures/bnl-sdcc-login.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+.center.width-70[[![bnl-sdcc-login](figures/bnl-sdcc-login.png)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .huge.center[SDCC login with federated authentication]
 
 ---
 # SDCC Jupyter Launcher: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
-.center.width-90[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+.center.width-90[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .huge.center[Allows for running .bold[custom images] as Apptainer containers]
 .huge.center[Can pull from public image registries or from CVMFS unpacked]
@@ -161,7 +161,7 @@ ___
 ---
 # SDCC Jupyter Launcher: AGC Workflow &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
-.center.width-100[[![BNL-launcher-with-image-tag](figures/BNL-launcher-with-image-tag.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+.center.width-100[[![BNL-launcher-with-image-tag](figures/BNL-launcher-with-image-tag.png)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.huge.bold[Example:]
 .huge.bold[`/cvmfs/unpacked.cern.ch/hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15`]
@@ -182,7 +182,7 @@ ___
 ---
 # Custom kernel discovery (WIP) &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
-.center.width-75[[![jupyter-lab-no-kernel](figures/jupyter-lab-no-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+.center.width-75[[![jupyter-lab-no-kernel](figures/jupyter-lab-no-kernel.png)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .large[At the moment, lacking mounting (or something else) to automatically discover and mount custom kernels from user defined virtual environments]
 
@@ -206,7 +206,7 @@ Singularity>
 ---
 # Custom kernel discovery &nbsp;&nbsp;&nbsp; .width-15[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
-.center.width-75[[![jupyter-lab-kernel](figures/jupyter-lab-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+.center.width-75[[![jupyter-lab-kernel](figures/jupyter-lab-kernel.png)](https://atlas-jupyter.sdcc.bnl.gov/)]
 
 .center.huge.bold[Workaround: Create custom symlink first time]
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
