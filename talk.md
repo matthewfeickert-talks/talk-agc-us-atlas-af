@@ -184,7 +184,7 @@ ___
 
 .center.width-75[[![jupyter-lab-no-kernel](figures/jupyter-lab-no-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
-.large[At the moment, lacking mounting (or something else) to mount custom kernels from user defined virtual environments]
+.large[At the moment, lacking mounting (or something else) to automatically discover and mount custom kernels from user defined virtual environments]
 
 ---
 # Custom kernel discovery
@@ -216,8 +216,9 @@ Singularity>
 
 .huge[
 - Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
-- Notebook runs end-to-end 🚀
-- BNL does not use Kubernetes, so not a Coffea-casa AF, so use global config
+- Notebook (was) running end-to-end 🚀
+   - I'm pretty sure this is just that I need to update a few things on my fork
+- BNL is not a Coffea-casa AF (uses ODK), so use global config
 ```python
 ...
 USE_DASK = True  # enable Dask
@@ -422,16 +423,25 @@ ___
 
 ---
 # Summary
-.kol-2-3[
-- .large[.bold[Important] points]
-   - sub points!
-   - and more
+.large.kol-2-3[
+* US ATLAS Analysis Facilities offer robust computing resources
+* At differing stages of production readiness for AGC workflows and users
+   - BNL: ✅ (basically, and then some UX workarounds)
+   - UChicago: ✅
+   - SLAC: More work to do
+* Each Analysis Facility offers unique features and experimental options for exploration
+   - BNL: Large pool of CPU nodes for bursting. OKD for new services (REANA, ServiceX).
+   - UChicago: Coffea-casa, Dask scale out to HTCondor on AF and MWT2. ServiceX instances.
+   - SLAC: GPUs galore. Large k8s pool.
 ]
-.kol-1-3[
+.center.kol-1-3[
+.width-100[[![bnl-logo](figures/bnl-logo.svg)](https://atlas-jupyter.sdcc.bnl.gov/)]
 <br>
 <br>
+.width-100[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 <br>
-.center.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+<br>
+.width-75[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 ]
 
 ---
