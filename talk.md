@@ -389,7 +389,10 @@ function jupyter() {
 
 .huge[
 * This is as far as I have gotten
+   - Currently unable to get hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15 image running
+* Will need to make a new flavor that includes SLURM instead of HTCondor to be able to use SDF batch system
 * Once have working interactive Jupyter session then can try to run AGC
+* 💡 As SDF supports Kubernetes would be .bold[amazing if they could support Coffea-casa]
 ]
 
 ---
@@ -399,13 +402,13 @@ function jupyter() {
 <br>
 <br>
 
-.center.huge[
+.center.large[
 
-| AF       | | Federated Login | | Batch    | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs | | Triton Server |
-| :-       | | :-:             | | :-       | |:-:   | | :-:         | | :-:           | | :-:         | | :-:      | | :-:  | | :-:           |
-| BNL      | | ✅              | | HTCondor | | ✅   | | ✅          | | ✅            | | ❌          | | ✅       | | ✅  | | ❌            |
-| UChicago | | ✅              | | HTCondor | | ✅   | | ✅          | | ❌            | | ✅          | | ✅       | | ✅  | | ✅            |
-| SLAC     | | ❌              | | SLURM    | | ✅   | | ✅          | | ✅            | | ❌          | | ❌       | | ✅  | | ❌            |
+| AF       | | Federated Login | | Batch    | Container Orchestration | | Dask | | Jupyter Hub | | Custom Images | | Coffea-casa | | ServiceX | | GPUs | | Triton Server |
+| :-       | | :-:             | | :-       | :-:        | |:-:   | | :-:      | | :-:           | | :-:         | | :-:         | | :-:      | | :-:           |
+| BNL      | | ✅              | | HTCondor | OKD        | | ✅   | | ✅       | | ✅            | | ❌          | | ✅         | | ✅        | | ❌            |
+| UChicago | | ✅              | | HTCondor | kubernetes | | ✅   | | ✅       | | ❌            | | ✅          | | ✅         | | ✅        | | ✅            |
+| SLAC     | | ❌              | | SLURM    | kubernetes | | ✅   | | ✅       | | ✅            | | ❌          | | ❌         | | ✅        | | ❌            |
 
 ]
 
