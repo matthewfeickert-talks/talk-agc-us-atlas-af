@@ -264,21 +264,21 @@ ___
 
 .center.width-60[[![uchicago-af-login-auth](figures/uchicago-af-login-auth.png)](https://af.uchicago.edu/)]
 
-.center.large[Login with Globus CILogon]
+.center.huge[Login with Globus CILogon]
 
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .center.width-60[[![uchicago-af-login](figures/uchicago-af-login.png)](https://af.uchicago.edu/)]
 
-.center.large[Able to launch Coffe-casa]
+.center.huge[Able to launch Coffe-casa]
 
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
 .center.width-70[[![uchicago-af-coffea-casa-launch](figures/uchicago-af-coffea-casa-launch.png)](https://af.uchicago.edu/)]
 
-.center.large[Use the latest coffea-casa release deployed by DOMA]
+.center.huge[Use the latest coffea-casa release deployed by DOMA]
 
 ---
 # Example: [AGC Example Analyses](https://github.com/iris-hep/analysis-grand-challenge/blob/v1.0.0/analyses/)
@@ -368,7 +368,7 @@ ___
 ```
 
 .center.large[[Pull custom images as Apptainer/Singularity container images](https://sdf.slac.stanford.edu/public/doc/#/software?id=singularity)]
-.center.large[(very slow)]
+.center.large[(conversion very slow)]
 
 ```bash
 export SINGULARITY_IMAGE_PATH=/path/to/.sif
@@ -378,7 +378,7 @@ function jupyter() {
 }
 ```
 
-.center.large[[Set commands to paste for initiating Jupyter Hub](https://sdf.slac.stanford.edu/public/doc/#/interactive-compute?id=in-a-singularity-container)]
+.center.large[[Prepare Bash to paste for initiating Jupyter Hub](https://sdf.slac.stanford.edu/public/doc/#/interactive-compute?id=in-a-singularity-container)]
 
 ---
 # SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
