@@ -261,7 +261,7 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 
 ___
 
-.center.large[For more detailed summary c.f. [Fengping Hu's 2022 US ATLAS S&C Technical Meeting talk](https://docs.google.com/presentation/d/1W_Pyg9WWbj-JFQ_L9Gfv_jdaFlQsMC41OV6g2WOySlY/edit?usp=sharing)]
+.center.large[For more detailed summary c.f. [Fengping Hu's 2022 US ATLAS Budget Scrubbing talk](https://indico.cern.ch/event/1167456/contributions/4966544/)]
 
 ---
 # UChicago AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
@@ -374,7 +374,7 @@ ___
 <br>
 ___
 
-.center[More detailed analysis in [Fengping Hu's 2022 US ATLAS Computing Facilities Face-to-Face talk](https://docs.google.com/presentation/d/1qdPxye_GGcrVY_hhKIjmm9v6PIh2U-s5OaaSa_KYz1Q/edit?usp=sharing)]
+.center[More detailed analysis in [Fengping Hu's 2022 US ATLAS Computing Facilities Face-to-Face talk](https://indico.cern.ch/event/1201515/contributions/5136976/)]
 
 ---
 # Summary
