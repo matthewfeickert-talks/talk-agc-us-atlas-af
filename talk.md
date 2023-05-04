@@ -298,16 +298,19 @@ ___
 ---
 # UChicago AF: [Triton Inference Server](https://github.com/maniaclab/triton-inference-server) &nbsp;&nbsp;&nbsp; .width-10[[![uchicago-atlas-af-logo](figures/uchicago-atlas-af-logo.png)](https://af.uchicago.edu/)]
 
-.large.kol-1-2[
+.large.kol-1-3[
 * Each Triton pod requests 1 GPU and additional Triton pods created in response to load
    - GPUs selected from [any available](https://af.uchicago.edu/hardware)
 * Available within Kubernetes (Coffea-casa), Jupyter Hub
 * Setup to use Amazon S3 object store for model registry
    - Though S3 bucket is shared
 ]
-.large.kol-1-2[
-* Each Triton pod requests 1 GPU and additional Triton pods created in response to load
-   - GPUs selected from [any available](https://af.uchicago.edu/hardware)
+.large.kol-2-3[
+<br>
+<br>
+.center.width-100[[![nvidia-triton](figures/nvidia-triton.png)](https://indico.cern.ch/event/1260431/contributions/5315191/)]
+
+.center[Elliott Kauffman, 2023 IRIS-HEP AGC Workshop]
 ]
 
 ---
@@ -353,6 +356,7 @@ ___
 
 <br>
 <br>
+<br>
 
 .center.huge[
 
@@ -363,6 +367,14 @@ ___
 | SLAC     | SLURM    | | ✅   | | ✅          | | ❌             | | ❌          | | ❌       | | ✅  |
 
 ]
+
+<br>
+<br>
+<br>
+<br>
+___
+
+.center[More detailed analysis in [Fengping Hu's 2022 US ATLAS Computing Facilities Face-to-Face talk](https://docs.google.com/presentation/d/1qdPxye_GGcrVY_hhKIjmm9v6PIh2U-s5OaaSa_KYz1Q/edit?usp=sharing)]
 
 ---
 # Summary
