@@ -324,19 +324,54 @@ ___
 ---
 # SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 
-.large[
-- .blue[Point A] 🎉
-- .red[Point B] 🌐
-- .bold[Point C] 🚀
-]
+.center.width-80[[![slac-sdf-login](figures/slac-sdf-login.png)](https://sdf.slac.stanford.edu/)]
+
+.center.large[Login via SLAC SDF webpage]
 
 ---
-# Example Slide
+# SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
 
-.large[
-- .blue[Point A] 🎉
-- .red[Point B] 🌐
-- .bold[Point C] 🚀
+.center.width-80[[![slac-sdf-windows-id](figures/slac-sdf-windows-id.png)](https://sdf.slac.stanford.edu/public/doc/#/accounts-and-access?id=accounts-and-access)]
+
+.center.large[SLAC ID and Windows Active Directory required for authentication]
+
+---
+# SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+
+```console
+[feickert@sdf-login03 ~]$ export _DIR=/scratch/${USER}/.singularity
+[feickert@sdf-login03 ~]$ mkdir -p "${_DIR}"
+[feickert@sdf-login03 ~]$ export SINGULARITY_LOCALCACHEDIR="${_DIR}"
+[feickert@sdf-login03 ~]$ export SINGULARITY_CACHEDIR="${_DIR}"
+[feickert@sdf-login03 ~]$ export SINGULARITY_TMPDIR="${_DIR}"
+[feickert@sdf-login03 ~]$ singularity pull \
+   docker://hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15
+```
+
+.center.large[[Pull custom images as Apptainer/Singularity container images](https://sdf.slac.stanford.edu/public/doc/#/software?id=singularity)]
+.center.large[(very slow)]
+
+```bash
+export SINGULARITY_IMAGE_PATH=<path-to-the.sif>
+function jupyter() {
+   singularity exec --nv -B /sdf,/gpfs,/scratch,/lscratch \
+   ${SINGULARITY_IMAGE_PATH} jupyter $@;
+}
+```
+
+.center.large[[Set commands to paste for initiating Jupyter Hub](https://sdf.slac.stanford.edu/public/doc/#/interactive-compute?id=in-a-singularity-container)]
+
+---
+# SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+
+.center.width-80[[![slac-sdf-custom-image](figures/slac-sdf-custom-image.png)](https://sdf.slac.stanford.edu/public/doc/#/interactive-compute?id=in-a-singularity-container)]
+
+---
+# SLAC SDF AF: AGC Workflow &nbsp;&nbsp;&nbsp; .width-5[[![slac-sdf-logo](figures/slac-sdf-logo.svg)](https://sdf.slac.stanford.edu/)]
+
+.huge[
+* This is as far as I have gotten
+* Once have working interactive Jupyter session then can try to run AGC
 ]
 
 ---
