@@ -321,17 +321,21 @@ ___
 .large.grid[
 .kol-1-3[
 .center.bold[Compute resources]
-* $n$ CPUs
-* $n$ GPUs
-* $x$ batch system
+* CPUs: ~1,200 cores
+* GPUs:
+   - 80 NVIDIA A100
+   - 350+  older NVIDIA models
+* SLURM batch system
 ]
 .kol-1-3[
 .center.bold[Jupyter access]
-* How
+* SDF website to JupyterHub instance
+* JupyterLab offers interactive access to GPUs with selection of NVIDIA enabled Singularity images
 ]
 .kol-1-3[
-.center.bold[Container runtime]
-* What environment
+.center.bold[Container infrastructure]
+* Uses [vcluster](https://github.com/loft-sh/vcluster) (Kubernetes) for container orchestration
+* Vera C. Rubin cluster should have large pool of k8
 ]
 ]
 
